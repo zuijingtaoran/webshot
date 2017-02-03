@@ -1,8 +1,8 @@
 # webshot
 @web:
-  <script src="DOC/JS/jquery-1.11.3.js" type="text/javascript"></script>
-    <script src="DOC/layer/layer.js" type="text/javascript"></script>
-<script type="text/javascript">
+   src="DOC/JS/jquery-1.11.3.js" type="text/javascript"
+     src="DOC/layer/layer.js" type="text/javascript"
+
         $(function () {
             $('.layui-btn').click(function () {
                 setTimeout(function () {
@@ -26,7 +26,7 @@
        }
        console.log(v);
         }
-        </script>
+      
 @node
 var webshot = require('webshot'); var fs = require('fs'); var path = require('path');
 var basePath = path.dirname(__filename).replace("routes","")+"/public/18158";  
