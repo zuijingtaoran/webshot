@@ -1,5 +1,6 @@
 # webshot
 @web:
+<code>
    src="DOC/JS/jquery-1.11.3.js" type="text/javascript"
      src="DOC/layer/layer.js" type="text/javascript"
 
@@ -26,8 +27,9 @@
        }
        console.log(v);
         }
-      
+      </code>
 @node
+<code>
 var webshot = require('webshot'); var fs = require('fs'); var path = require('path');
 var basePath = path.dirname(__filename).replace("routes","")+"/public/18158";  
 if (fs.existsSync(basePath)) {  
@@ -71,7 +73,7 @@ var options = {
 // 
 // err?console.log(err):console.log("ok");
 // 
-//}); 
+//}); </code>
 @reference
 npm isntall  webshot-cli 
 https://www.npmjs.com/package/webshot
